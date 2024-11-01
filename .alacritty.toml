@@ -1,0 +1,11 @@
+[general]
+import = ["~/.config/tokyonight-theme/extras/alacritty/tokyonight_night.toml"]
+live_config_reload = true
+
+[window]
+startup_mode = "Maximized"
+dynamic_title = true
+
+[font]
+normal = { family = "Hack Nerd Font Mono", style = "Regular" }
+size = 12
