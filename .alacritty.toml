@@ -5,7 +5,13 @@ live_config_reload = true
 [window]
 startup_mode = "Maximized"
 dynamic_title = true
+option_as_alt = "OnlyLeft"
 
 [font]
 normal = { family = "Hack Nerd Font Mono", style = "Regular" }
 size = 12
+
+[keyboard]
+bindings = [
+  { key = "Slash", mods = "Control", chars = "\u001f" }
+]
